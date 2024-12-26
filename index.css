@@ -54,21 +54,21 @@
 #icon3,
 #icon4 {
   font-size: 40px;
-  margin: 40px 40px;
+  margin: 20px 20px;
 }
 .icon {
   position: relative;
-  width: 250px;
+  width: 200px;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-  left: 50%;
-  top: 6%;
-  transform: translateX(-50%);
+  left: 55%;
+  top: 20%;
+  transform: translateX(-50%) scale(1.5);
   transition: all 0.3s linear;
   opacity: 0%;
 }
 .picture:hover .icon {
   opacity: 100%;
-  transform: scale(0.5) translateX(-100%);
+  transform: scale(0.5) translateX(-115%);
 }
